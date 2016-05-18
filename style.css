@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	text-align: center;
+}
+header {
+	background-color: #FBA87E;
+	margin: 0 0 50px 0;
+	padding: 0.1px;
+}
+header h1 {
+	font-size: 45px;
+	color: #FFE0D1;
+}
+a {
+	color: white;
+	background-color: #6474A1;
+	padding: 20px;
+	border-radius: 16px;
+	transition: all 500ms;
+}
+a:hover {
+	cursor: pointer;
+	color: #4E6190;
+	background-color: #B8C9FF;
+
+}
+.holder {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
